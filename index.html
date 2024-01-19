@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h1 class="Marker w-75  text-muted">Bookmarker</h1>
+    <div class="container w-75 ">
+        <div class=" BOOKS h-50">
+            <h4 class=" text-center pt-md-5 fw-bolder">Bookmark your favorite sites</h4>
+            <form class="form w-100 p-md-5 me-md-3 ms-md-3" action="#">
+                <div class=" form-group  mb-md-3 d-flex align-items-center flex-column">
+            <label for="productName" class="fw-bolder mb-md-3">Site Name</label>
+            <input name="productName" type="text" id="productName" onkeyup="validateProductName()"  placeholder="Bookmark Name" class=" border rounded-2 w-75">
+            <p class="text-danger d-none" id="name-validation"> Please check your input (suppose to start with capital )</p>
+        </div>
+        <div class="input-field mb-md-3 d-flex align-items-center flex-column">
+            <label for="url" class=" fw-bolder mb-md-3">Site URL</label>
+            <input name="url" type="url" id="url" placeholder="Website URL" class=" border rounded-2 w-75" >
+            <p class="text-danger d-none" id="url-validation" onkeyup="validateurl()">Please enter Valid URL</p>
+
+        </div>
+        <button type="submit" class="save_button" onclick="addProduct()" id="mainBtn">Submit</button>
+</form>
+    </div>
+    <div class="w-100 pt-md-3 bookmarks">
+        <table class=" table ">
+            <tbody id="productData">
+               
+            </tbody>
+        </table>
+    </div>
+</div>
+<footer id="footer" class=" text-muted fw-bolder ">
+    <p class=" mt-md-3"> © 2019 Bookmarker Inc.</p>
+</footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/index.js"></script>
+</body>
+
+
+
+
+
+
+</html>

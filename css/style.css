@@ -1,0 +1,110 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+    background-image: url(../overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.Marker{
+	border-bottom : 1px solid #999;
+	margin-left: 12%;
+	margin-right:12% ;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	margin-bottom: 2%;
+}
+.BOOKS{
+	background-color: rgb(228, 222, 222);
+}
+.save_button{ 
+    box-sizing: border-box;
+     padding: 10px 15px;
+     margin-left: 45%;
+    border-radius: 5px;
+    border: 1px solid #1167c4;
+     font-size: 15px;
+     cursor: pointer;
+     transition: all .5s;
+     background-color: #1167c4;
+     color: white;
+ }
+ .save_button:hover{
+     background-color:#430ef0;
+     color:white;
+     }
+     .save_buttonn{ 
+        box-sizing: border-box;
+         padding: 10px 15px;
+         margin-left: 45%;
+        border-radius: 5px;
+        border: 1px solid #ffc107;
+         font-size: 15px;
+         cursor: pointer;
+         transition: all .5s;
+         background-color: #ffc107;
+         color: rgb(14, 13, 13);
+     }
+     .table{
+        display: flex;
+        align-items: center;
+        background-color: rgb(228, 222, 222);
+        margin-bottom: 2%;
+    }
+    .bookmarkk{
+        margin-bottom: 2%;
+
+    }
+    .table span{
+        flex: 0.3;
+        font-size: large;
+        font-weight: bolder;
+        letter-spacing: 1.5px;
+        color:black;
+    }
+  .table .visit{ 
+        box-sizing: border-box;
+         padding: 5px 10px;
+         margin-right: 1%;
+        border-radius: 5px;
+        border: 1px solid #1167c4;
+         font-size: 15px;
+         cursor: pointer;
+         transition: all .5s;
+         background-color: #1167c4;
+         color: white;
+     }
+     .table .visit:hover{
+         background-color:#430ef0;
+         color:white;
+         }
+     .table .delete{ 
+            box-sizing: border-box;
+             padding: 5px 10px;
+             margin-right: 1%;
+            border-radius: 5px;
+            border: 1px solid #e10910;
+             font-size: 15px;
+             cursor: pointer;
+             transition: all .5s;
+             background-color: #e10910;
+             color: white;
+         }
+     .table .delete:hover{
+             background-color:#780404;
+             color:white;
+             }
+    #footer{
+        margin-left: 12%;
+        margin-right:12% ;
+        border-top: 1px solid #999;
+        font-size:14px;
+    }
+    
